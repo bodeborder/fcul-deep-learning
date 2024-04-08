@@ -36,4 +36,22 @@ Automatic Speech Recognition - https://cs231n.stanford.edu/reports/2017/pdfs/804
 
 - Toxic Comment Detection and Classification - https://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26647691.pdf - mais para a cena da JUST
 
+- Applying Deep Reinforcement Learning to Control a Rocket Vehicle in Hover using Thrust Vectoring - https://cs229.stanford.edu/proj2021spr/report2/81873359.pdf
+
+- Solving the Rubik's Cube with Deep Reinforcement Learning Using Multi-Headed Models - https://cs229.stanford.edu/proj2021spr/report2/81889605.pdf
+
+- Using Neural Network for Security Attacks Detection - https://cs229.stanford.edu/proj2021spr/report2/81970400.pdf
+
+- Application of Deep Reinforcement Learning in Algorithmic Trading - https://cs229.stanford.edu/proj2021spr/report2/81976424.pdf
+
+- Trolls, Haters, or Teammates: Classifying Sentiment in the Langeuage of PvP Game Communications - https://cs229.stanford.edu/proj2021spr/report2/81982391.pdf - maybe para a JUST also
+
+- Embeddings for Classifying Racist Tweets - https://cs229.stanford.edu/proj2021spr/report2/82008194.pdf - JUST
+
+- Fall Detection using Human Pose Estimation on 2D Video Input - https://drive.google.com/file/d/1fwVjVPb17RzAe_3N625SF-NXcinToiyJ/view
+
+- Using Wallstreetbets data and NLP in Stock Trading - https://drive.google.com/file/d/1rfOdFBm-o2DoEydQZt8zbMY5Fo55uA1x/view
+
+- Training for Connect Four: Reinforcement Learning on a Solved Game - https://drive.google.com/file/d/16RV3Quqk39hMtQM0LPiO6l4MozUIv4r-/view
+
 - 
