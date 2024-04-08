@@ -1,0 +1,39 @@
+DL INTERESTING PROJECTS:
+
+- Convolutional and recurrent nets for detecting emotion from audio data - http://cs231n.stanford.edu/reports/2015/pdfs/Cs_231n_paper.pdf
+
+- Predicting Moves in Chess using Convolutional Neural Network - https://cs231n.stanford.edu/reports/2015/pdfs/ConvChess.pdf
+
+- Human Pose Estimation and Activity Classification Using Convolutional Neural
+Networks - https://cs231n.stanford.edu/reports/2015/pdfs/cdong-paper.pdf
+
+- Real-Time Head Pose Estimation with Convolutional Neural Networks - https://cs231n.stanford.edu/reports/2015/pdfs/zhianghu_report.pdf
+
+- Optimizing CPU Performance for Convolutional Neural Networks - https://cs231n.stanford.edu/reports/2015/pdfs/fabuzaid_final_report.pdf
+
+- Attentional Scene Classification with Human Eye Movements - https://cs231n.stanford.edu/reports/2016/pdfs/004_Report.pdf
+
+- Stochastic Video Prediction with Deep Conditional Generative Models - https://cs231n.stanford.edu/reports/2016/pdfs/215_Report.pdf
+
+- Recurrent Deep Q-Learning for PAC-MAN - https://cs231n.stanford.edu/reports/2016/pdfs/106_Report.pdf
+
+- Deep Reinforcement Learning for Simulated Autonomous Vehicle Control - https://cs231n.stanford.edu/reports/2016/pdfs/112_Report.pdf
+
+- Facial Expression Recognition with Convolutional Neural Networks - https://cs231n.stanford.edu/reports/2016/pdfs/023_Report.pdf
+
+- Diagnosis of Heart Disease via CNNs - https://cs231n.stanford.edu/reports/2016/pdfs/331_Report.pdf
+
+- Wave-dynamics simulation using deep neural networks - https://cs231n.stanford.edu/reports/2017/pdfs/542.pdf
+
+- Deep Convolutional and LSTM Neural Networks for Acoustic Modelling in
+Automatic Speech Recognition - https://cs231n.stanford.edu/reports/2017/pdfs/804.pdf
+
+- Game Playing with Deep Q-Learning using OpenAI Gym - https://cs231n.stanford.edu/reports/2017/pdfs/616.pdf
+
+- Deep Q-Learning applied to tactical deconfliction - https://cs231n.stanford.edu/reports/2022/pdfs/25.pdf
+
+- Augmented Human Action Classification with Joint Estimation via double CNN - https://cs231n.stanford.edu/reports/2022/pdfs/54.pdf
+
+- Toxic Comment Detection and Classification - https://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26647691.pdf - mais para a cena da JUST
+
+- 
