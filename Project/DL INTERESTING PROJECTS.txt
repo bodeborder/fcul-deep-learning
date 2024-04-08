@@ -21,4 +21,4 @@ Networks - https://cs231n.stanford.edu/reports/2015/pdfs/cdong-paper.pdf
 
 - Facial Expression Recognition with Convolutional Neural Networks - https://cs231n.stanford.edu/reports/2016/pdfs/023_Report.pdf
 
-- 
+- Diagnosis of Heart Disease via CNNs - https://cs231n.stanford.edu/reports/2016/pdfs/331_Report.pdf
