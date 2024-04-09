@@ -1,0 +1,24 @@
+COPD related:
+
+- Transformer-Based Multi-Modal Data Fusion Method for COPD Classification and Physiological and Biochemical Indicators Identification - https://www.mdpi.com/2218-273X/13/9/1391
+
+- Chronic Obstructive Pulmonary Disease (COPD) - https://www.msdmanuals.com/professional/pulmonary-disorders/chronic-obstructive-pulmonary-disease-and-related-disorders/chronic-obstructive-pulmonary-disease-copd
+
+- A vision transformer for emphysema classification using CT images - https://pubmed.ncbi.nlm.nih.gov/34826824/
+
+- Prediction of Obstructive Lung Disease from Chest Radiographs via Deep Learning Trained on Pulmonary Function Data - https://www.dovepress.com/prediction-of-obstructive-lung-disease-from-chest-radiographs-via-deep-peer-reviewed-fulltext-article-COPD
+
+- Efficient pneumonia detection using Vision Transformers on chest X-rays - https://www.nature.com/articles/s41598-024-52703-2
+
+
+
+WHO (World Health Organization) COPD infos - https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)#:~:text=Chronic%20obstructive%20pulmonary%20disease%20(COPD)%20is%20the%20third%20leading%20cause,3.23%20million%20deaths%20in%202019.
+
+
+
+DATASETS: 
+
+- Camden COPD Prevalence 2014-15 - https://data.world/datagov-uk/b485b6ec-fd10-4c0e-af7b-48b9c80b2fe4
+- GP recorded chronic obstructive pulmonary disease rates (COPD) - https://data.europa.eu/data/datasets/gp-recorded-copd-rates?locale=pt
+
+THERE ARE MUCH MORE THESE ARE JUST EXAMPLES
