@@ -5,7 +5,8 @@ Configure project root path and create project subfolders if they do not exist y
 import os
 
 folders = []
-project_root = "/Users/nunogarcia/Library/CloudStorage/OneDrive-UniversidadedeLisboa/Documentos/0_research/1-GRANTS-PROJECTS/__ongoing/0_2022_THOR/code/project"  # change to project root path
+project_root = "/Users/guilh/OneDrive - Universidade de Lisboa/FCUL/2 Semestre/AP/fcul-deep-learning/Project/code" # change to project root path
+#"/Users/nunogarcia/Library/CloudStorage/OneDrive-UniversidadedeLisboa/Documentos/0_research/1-GRANTS-PROJECTS/__ongoing/0_2022_THOR/code/project"  
 
 if project_root == None:
     raise ValueError("First specify the project root")
