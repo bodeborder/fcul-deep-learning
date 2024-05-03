@@ -1,3 +1,6 @@
 
 Project/data/dados harvard US
 Project/data/__MACOSX
+
+# ignore raw data (data privacy)
+Project/code/raw

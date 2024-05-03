@@ -1,0 +1,14 @@
+STEPS TODO PEDRO :
+
+- AlTER de config.py to ypur project root but try to maintain the same logic and them add this file to the gitignore
+
+- RUN the config.py file to create the intermediate and raw files as well as those inside of them
+
+- ADD manually raw data into the raw folder from the project/raw path in the teacher's data (dont worry already added to the git ignore so no problems in commit)
+
+
+
+
+TODO:
+- Check the python files inside of the b-line detection folder analyse them to check any disruptions that need to be altered
+- Alter or add in the training runs a transformer based model
