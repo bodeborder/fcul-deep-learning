@@ -13,10 +13,12 @@ here = os.path.dirname(__file__)
 sys.path.append(os.path.join(here, ".."))
 print(sys.path)
 sys.path.append(
-    "/Users/nunogarcia/Library/CloudStorage/OneDrive-UniversidadedeLisboa/Documentos/0_research/1-GRANTS-PROJECTS/__ongoing/0_2022_THOR/code/B-line_detection/"
+    "/Users/guilh/OneDrive - Universidade de Lisboa/FCUL/2 Semestre/AP/fcul-deep-learning/Project/code/B-Line detection"
+    #"/Users/nunogarcia/Library/CloudStorage/OneDrive-UniversidadedeLisboa/Documentos/0_research/1-GRANTS-PROJECTS/__ongoing/0_2022_THOR/code/B-line_detection/"
 )
 sys.path.append(
-    "/Users/nunogarcia/Library/CloudStorage/OneDrive-UniversidadedeLisboa/Documentos/0_research/1-GRANTS-PROJECTS/__ongoing/0_2022_THOR/code/B-line_detection/data_preparation/"
+    "/Users/guilh/OneDrive - Universidade de Lisboa/FCUL/2 Semestre/AP/fcul-deep-learning/Project/code/B-Line detection/data_preparation/"
+    #"/Users/nunogarcia/Library/CloudStorage/OneDrive-UniversidadedeLisboa/Documentos/0_research/1-GRANTS-PROJECTS/__ongoing/0_2022_THOR/code/B-line_detection/data_preparation/"
 )
 
 import pickle
