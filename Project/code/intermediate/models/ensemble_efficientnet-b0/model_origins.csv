@@ -1,0 +1,6 @@
+origin,model,settings
+0011_efficientnet-b0_0,model_0.pth,experiment_settings_0.pkl
+0012_efficientnet-b0_1,model_1.pth,experiment_settings_1.pkl
+0013_efficientnet-b0_2,model_2.pth,experiment_settings_2.pkl
+0014_efficientnet-b0_3,model_3.pth,experiment_settings_3.pkl
+0015_efficientnet-b0_4,model_4.pth,experiment_settings_4.pkl

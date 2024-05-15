@@ -1,0 +1,2 @@
+classification_thresholds = 0.947
+aggregation_method = 'max'

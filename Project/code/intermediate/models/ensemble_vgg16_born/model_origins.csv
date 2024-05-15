@@ -1,0 +1,6 @@
+origin,model,settings
+0021_vgg16_born_0,model_0.pth,experiment_settings_0.pkl
+0022_vgg16_born_1,model_1.pth,experiment_settings_1.pkl
+0023_vgg16_born_2,model_2.pth,experiment_settings_2.pkl
+0024_vgg16_born_3,model_3.pth,experiment_settings_3.pkl
+0025_vgg16_born_4,model_4.pth,experiment_settings_4.pkl

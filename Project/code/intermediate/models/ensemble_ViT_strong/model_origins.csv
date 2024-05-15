@@ -1,0 +1,6 @@
+origin,model,settings
+0016_ViT_strong_0,model_0.pth,experiment_settings_0.pkl
+0017_ViT_strong_1,model_1.pth,experiment_settings_1.pkl
+0018_ViT_strong_2,model_2.pth,experiment_settings_2.pkl
+0019_ViT_strong_3,model_3.pth,experiment_settings_3.pkl
+0020_ViT_strong_4,model_4.pth,experiment_settings_4.pkl

@@ -1,0 +1,6 @@
+origin,model,settings
+0006_densenet121_0,model_0.pth,experiment_settings_0.pkl
+0007_densenet121_1,model_1.pth,experiment_settings_1.pkl
+0008_densenet121_2,model_2.pth,experiment_settings_2.pkl
+0009_densenet121_3,model_3.pth,experiment_settings_3.pkl
+0010_densenet121_4,model_4.pth,experiment_settings_4.pkl

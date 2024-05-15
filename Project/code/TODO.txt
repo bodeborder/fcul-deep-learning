@@ -10,5 +10,26 @@ STEPS TODO PEDRO :
 
 
 TODO:
-- Check the python files inside of the b-line detection folder analyse them to check any disruptions that need to be altered
+- Check the python files inside of the b-line detection folder analyse them to check any disruptions that need to be altered, DONE
+
+- Fix the 5_get_processed_frames file
+- Continue the github steps, use only the frame level classfication part
+- Choose only the transformer models from the intermediate/models folder
+- Choose more transformer models from hugging face is feasable (it is, just needs more search)
 - Alter or add in the training runs a transformer based model
+- Analyse the evaluation folder
+- Obtain results 
+- Write Paper
+- Don't forget to cite the authors of the "Deep Learning for Detection and Localization of B-Lines in Lung Ultrasound" paper
+
+
+14/05 and 15/05
+- Did the steps in the github plus some exploration by myself, we dont need to run the steps 1 to 4 in the data preparation folder as the respective .pkl files are already generated and in the supplementary_files folder
+and were after copied to the intermediate/annotation folder and intermediate/info folder
+
+- There's a problem when running the 5_get_processed_frames file so i didnt generate the png images for each frame YET!!
+
+- They have already in the frame level classfication tested some transformers models, maybe we will use those and add more to extend the test and results
+
+- Added to the intermediate/models folder all of the frame level models that they trained
+

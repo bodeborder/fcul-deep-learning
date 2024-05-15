@@ -1,0 +1,6 @@
+origin,model,settings
+0001_resnet18_0,model_0.pth,experiment_settings_0.pkl
+0002_resnet18_1,model_1.pth,experiment_settings_1.pkl
+0003_resnet18_2,model_2.pth,experiment_settings_2.pkl
+0004_resnet18_3,model_3.pth,experiment_settings_3.pkl
+0005_resnet18_4,model_4.pth,experiment_settings_4.pkl
