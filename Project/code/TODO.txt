@@ -12,7 +12,8 @@ STEPS TODO PEDRO :
 TODO:
 - Check the python files inside of the b-line detection folder analyse them to check any disruptions that need to be altered, DONE
 
-- Fix the 5_get_processed_frames file
+- Fix the 5_get_processed_frames file, DONE
+
 - Continue the github steps, use only the frame level classfication part
 - Choose only the transformer models from the intermediate/models folder
 - Choose more transformer models from hugging face is feasable (it is, just needs more search)
