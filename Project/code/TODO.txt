@@ -34,3 +34,17 @@ and were after copied to the intermediate/annotation folder and intermediate/inf
 
 - Added to the intermediate/models folder all of the frame level models that they trained
 
+
+16/05
+- Altered the line 21 (frames = 1 ) in the script 2_create_dataset to generate the positive an negative instances labels from the annotations folder
+- Created the labelset task = 'classification'  #classification and frames_1 to do the frame level classification 
+folder = 'frames_1' chnaging line 27 and 28 of the labelset script 3_create_labelset
+
+- Received the error below when trying to run the labelset script fixed it by going to C:\Users\guilh\anaconda3\Library\bin a searched for libiomp5md.dll file and eliminated it.
+OMP: Error #15: Initializing libiomp5md.dll, but found libiomp5md.dll already initialized.
+OMP: Hint This means that multiple copies of the OpenMP runtime have been linked into the program. 
+That is dangerous, since it can degrade performance or cause incorrect results. 
+The best thing to do is to ensure that only a single OpenMP runtime is linked into the process, e.g. by avoiding static linking of the OpenMP runtime in any library. 
+As an unsafe, unsupported, undocumented workaround you can set the environment variable KMP_DUPLICATE_LIB_OK=TRUE to allow the program to continue to execute, but that may cause crashes or silently produce incorrect results.
+ For more information, please see http://www.intel.com/software/products/support/.
+
