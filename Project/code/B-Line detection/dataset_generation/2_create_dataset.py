@@ -18,7 +18,8 @@ from utils.config import images_folder, info_folder, annotations_folder
 from utils.dataset_utils import create_folder_structure, create_datapoint, get_all_frames
 
 # specify settings
-frames = 16           # number of frames (should be 1 except for video classification models, in which case 16 was used)
+frames = 1           # change from 16 to 1 to specify the dataset type (frame level and pixel level)
+# number of frames (should be 1 except for video classification models, in which case 16 was used)
 
 # define directories to use 
 input_folder = os.path.join(images_folder, 'processed_frames')    
