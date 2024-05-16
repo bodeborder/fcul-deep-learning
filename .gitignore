@@ -2,5 +2,7 @@
 Project/data/dados harvard US
 Project/data/__MACOSX
 
+Project/code/intermediate/data/images/processed_frames
+
 # ignore raw data (data privacy)
 Project/code/raw
