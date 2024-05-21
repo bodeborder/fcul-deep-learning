@@ -31,8 +31,8 @@ from utils.training_utils import get_prediction
 warnings.filterwarnings("ignore")
 
 # define model evaluation details
-model_subfolder = 'frame_level'
-model_names = ['0001_example_network_0'] 
+model_subfolder = None #'frame_level'
+model_names =  'all' #['0001_ViT_strong_0', '0002_ViT_strong_1','0003_ViT_strong_2','0004_ViT_strong_3','0005_ViT_strong_4'] #['0001_example_network_0'] 
 dataset_split = 'val'
 extension = ''
 
@@ -45,8 +45,8 @@ classification_thresholds = 0.0   # for B-line presence in videos, was determine
 aggregation_method = 'max'
 
 # define saving settings
-store_spreadsheet = False
-store_visualizations = False
+store_spreadsheet = True #False
+store_visualizations = True #False
 store_curve = True
 
 # other parameters
