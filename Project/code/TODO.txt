@@ -58,3 +58,9 @@ As an unsafe, unsupported, undocumented workaround you can set the environment v
  - resolved bugs
  - tested a single run for the vision trnsformer model 
 
+
+20/05 and 21/05
+
+- Tested a scheduled run of only vision transformers models with gpu (much faster than with cpu), sould be tyhe 0001_Vision transformer to 0004 so 5 models with 10 epochs each
+- Try a evaluation of these 5 models
+- 

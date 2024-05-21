@@ -15,7 +15,7 @@ from network_training.training_run import training_run
 
 
 # load the experiment schedule
-schedule_path = os.path.join(models_folder, 'official_training_runs.xlsx')
+schedule_path = os.path.join(models_folder, 'transformers_only_training_runs.xlsx')
 if os.path.exists(schedule_path):
     schedule_df = pd.read_excel(schedule_path)
     schedule_dict = schedule_df.to_dict('list')
