@@ -87,11 +87,6 @@ def get_frame_classification_model(
         if pretrained == False:
             model.features[0][0] = change_input(model.features[0][0], input_channels)  
 
-    elif model_name == 'ViT':
-        model = timm.create_model('vit_tiny_patch16_384', pretrained=pretrained, num_classes=N_classes)
-        # change the first layer to have the desired number of input channels if pretrained is False
-        if pretrained == False:
-            model.patch_embed.proj = change_input(model.patch_embed.proj, input_channels) 
 
     elif model_name == 'stn_roy_etal':
         model = STN_Roy_etal(img_size=(256,384), in_channels=input_channels, nclasses=N_classes) 
@@ -101,6 +96,33 @@ def get_frame_classification_model(
         # change the first layer to have the desired number of input channels if pretrained is False
         if pretrained == False:
            model.encoder[0] = change_input(model.encoder[0], input_channels)
+
+    #--------------------------- Transformer Models --------------------------------
+
+    elif model_name == 'ViT':
+        model = timm.create_model('vit_tiny_patch16_384', pretrained=pretrained, num_classes=N_classes)
+        # change the first layer to have the desired number of input channels if pretrained is False
+        if pretrained == False:
+            model.patch_embed.proj = change_input(model.patch_embed.proj, input_channels) 
+
+    elif model_name == 'Swin':
+        model = timm.create_model('swin_tiny_patch4_window7_224.ms_in1k', pretrained=pretrained, num_classes=N_classes)
+        # change the first layer to have the desired number of input channels if pretrained is False
+        if pretrained == False:
+            model.patch_embed.proj = change_input(model.patch_embed.proj, input_channels) 
+
+    elif model_name == 'DeiT':
+        model = timm.create_model('deit3_base_patch16_224.fb_in1k', pretrained=pretrained, num_classes=N_classes)
+        # change the first layer to have the desired number of input channels if pretrained is False
+        if pretrained == False:
+            model.patch_embed.proj = change_input(model.patch_embed.proj, input_channels) 
+
+    elif model_name == 'CaiT':
+        model = timm.create_model('cait_m36_384.fb_dist_in1k', pretrained=pretrained, num_classes=N_classes)
+        # change the first layer to have the desired number of input channels if pretrained is False
+        if pretrained == False:
+            model.patch_embed.proj = change_input(model.patch_embed.proj, input_channels) 
+
 
     else:
         raise ValueError('Model name not recognized.')

@@ -15,10 +15,12 @@ TODO:
 - Fix the 5_get_processed_frames file, DONE
 
 - Continue the github steps, use only the frame level classfication part, DONE
+- Choose more transformer models from hugging face is feasable (it is, just needs more search), DONE
 
+- Alter or add in the training runs a transformer based model, DONE
+
+- AlTER THE EXCEL of the transformer models to fit the new models and its specifications
 - Choose only the transformer models from the intermediate/models folder
-- Choose more transformer models from hugging face is feasable (it is, just needs more search)
-- Alter or add in the training runs a transformer based model
 - Erase the non transformer models from the intermediate/models folder
 - Analyse the evaluation folder
 - Obtain results 
@@ -64,3 +66,16 @@ As an unsafe, unsupported, undocumented workaround you can set the environment v
 - Tested a scheduled run of only vision transformers models with gpu (much faster than with cpu), sould be tyhe 0001_Vision transformer to 0004 so 5 models with 10 epochs each
 - Try a evaluation of these 5 models
 - 
+
+21/05 e 22/05
+ANTES de qualquer treino o file excel tem de ter o finished com falsos por baixo (mudar manuaolmente caso ja tenha sido feito um treino anteriormente) 
+start_run	end_run	best_val_loss e essas 3 colunas tem de estar vazias
+
+finished
+
+- All of thius model referredto the timm library , timm/model......
+- Add model swin transformer 'swin_tiny_patch4_window7_224.ms_in1k' from hugging face
+- Add model DeiT transformer 'deit3_base_patch16_224.fb_in1k' from hugging face
+- Add model DeiT transformer 'cait_m36_384.fb_dist_in1k' from hugging face
+- Running the same 5 models as before (network training) but with 100 epochs each to check if the results are better
+- Fazer evaluation apos o training
