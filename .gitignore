@@ -5,5 +5,7 @@ Project/data/__MACOSX
 Project/code/intermediate/data/images/processed_frames
 Project/code/intermediate/data/images/datasets
 
+Project/code/B-Line detection/utils/config.py
+
 # ignore raw data (data privacy)
 Project/code/raw

@@ -74,8 +74,15 @@ start_run	end_run	best_val_loss e essas 3 colunas tem de estar vazias
 finished
 
 - All of thius model referredto the timm library , timm/model......
-- Add model swin transformer 'swin_tiny_patch4_window7_224.ms_in1k' from hugging face
-- Add model DeiT transformer 'deit3_base_patch16_224.fb_in1k' from hugging face
+- Add model swin transformer 'swin_base_patch4_window12_384.ms_in22k_ft_in1k' from hugging face
+- Add model DeiT transformer 'timm/deit3_base_patch16_384.fb_in1k' from hugging face
 - Add model DeiT transformer 'cait_m36_384.fb_dist_in1k' from hugging face
 - Running the same 5 models as before (network training) but with 100 epochs each to check if the results are better
 - Fazer evaluation apos o training
+
+
+24/05
+
+- Added and updated the vison transformer models to have 384 pixel pre trained by the Image net 1k 
+- In the training_run.py scriot added the zeroo-padded images to the size of 384x384 for all vision transformer models
+- 

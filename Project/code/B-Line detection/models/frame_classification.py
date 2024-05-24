@@ -106,13 +106,13 @@ def get_frame_classification_model(
             model.patch_embed.proj = change_input(model.patch_embed.proj, input_channels) 
 
     elif model_name == 'Swin':
-        model = timm.create_model('swin_tiny_patch4_window7_224.ms_in1k', pretrained=pretrained, num_classes=N_classes)
+        model = timm.create_model('swin_base_patch4_window12_384.ms_in22k_ft_in1k', pretrained=pretrained, num_classes=N_classes)
         # change the first layer to have the desired number of input channels if pretrained is False
         if pretrained == False:
             model.patch_embed.proj = change_input(model.patch_embed.proj, input_channels) 
 
     elif model_name == 'DeiT':
-        model = timm.create_model('deit3_base_patch16_224.fb_in1k', pretrained=pretrained, num_classes=N_classes)
+        model = timm.create_model('deit3_base_patch16_384.fb_in1k', pretrained=pretrained, num_classes=N_classes)
         # change the first layer to have the desired number of input channels if pretrained is False
         if pretrained == False:
             model.patch_embed.proj = change_input(model.patch_embed.proj, input_channels) 

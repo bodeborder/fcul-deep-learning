@@ -109,8 +109,8 @@ def training_run(settings: dict) -> None:
     else:
         raise ValueError('Specified task not recognized')
 
-    # correct for the difference in image size expected by ViT using padding
-    padding = (0, 0, 64, 64) if settings['model'] == 'ViT' else (0, 0, 0, 0)
+    # correct for the difference in image size expected by ViT and the other vision transformers using padding
+    padding = (0, 0, 64, 64) if settings['model'] == 'ViT' or 'Swin' or 'DeiT' or 'CaiT' else (0, 0, 0, 0)
 
     # create the dataset instances
     train_dataset = ImageDataset(

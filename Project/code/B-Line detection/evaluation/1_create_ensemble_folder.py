@@ -17,8 +17,8 @@ from utils.config import models_folder, info_folder
 
 # define name that is used to group models
 model_subfolder = ''
-model_names = ['0001_example_network_0', '0002_example_network_1', '0003_example_network_2', '0004_example_network_3', '0005_example_network_4']
-ensemble_name = 'ensemble_example_network'
+model_names = ['0001_ViT_strong_0', '0002_ViT_strong_1', '0003_ViT_strong_2', '0004_ViT_strong_3', '0005_ViT_strong_4']
+ensemble_name = 'ensemble_ViT_strong'
 
 # --------------------------------------------------------------------------------
 
