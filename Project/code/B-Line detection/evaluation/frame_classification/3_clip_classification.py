@@ -45,8 +45,8 @@ classification_thresholds = 0.0   # for B-line presence in videos, was determine
 aggregation_method = 'max'
 
 # define saving settings
-store_spreadsheet = True #False
-store_visualizations = True #False
+store_spreadsheet = False
+store_visualizations = False
 store_curve = True
 
 # other parameters

@@ -73,7 +73,7 @@ start_run	end_run	best_val_loss e essas 3 colunas tem de estar vazias
 
 finished
 
-- All of thius model referredto the timm library , timm/model......
+- All these models are referred to the timm library , timm/model......
 - Add model swin transformer 'swin_base_patch4_window12_384.ms_in22k_ft_in1k' from hugging face
 - Add model DeiT transformer 'timm/deit3_base_patch16_384.fb_in1k' from hugging face
 - Add model DeiT transformer 'cait_m36_384.fb_dist_in1k' from hugging face
