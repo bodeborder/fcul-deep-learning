@@ -86,3 +86,18 @@ finished
 - Added and updated the vison transformer models to have 384 pixel pre trained by the Image net 1k 
 - In the training_run.py scriot added the zeroo-padded images to the size of 384x384 for all vision transformer models
 - 
+
+25/05
+
+- CUDA out of memory. Tried to allocate 36.00 MiB. GPU 0 has a total capacity of 8.00 GiB of which 0 bytes is free.
+ Of the allocated memory 14.25 GiB is allocated by PyTorch, and 132.13 MiB is reserved by PyTorch but unallocated. 
+ If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.
+ Received this error while trying to run the full transformers training_run transformers_only_training_runs.xlsx.
+
+ To avoid going to the google collab i will try to divide each transformer into a different excel file:
+ - ViT, ViT_transformer_training_run.xlsx
+ - Swin, Swin_transformer_training_run.xlsx
+ - DeiT, DeiT_transformer_training_run.xlsx
+ - CaiT, CaiT_transformer_training_run.xlsx
+
+ After each scheduled  run we run the 3_clip_classification to evaluate the model results

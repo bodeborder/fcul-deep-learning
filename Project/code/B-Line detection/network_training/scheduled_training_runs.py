@@ -12,10 +12,28 @@ import pandas as pd
 
 from utils.config import models_folder
 from network_training.training_run import training_run
+import torch
+import os
+
+os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
+
+#Cleans the gpu cached memory
+torch.cuda.empty_cache()
+
+num_gpus = torch.cuda.device_count()
+print(f"Number of GPUs available: {num_gpus}")
+
+#Reset the Gpu memory before each run
+torch.cuda.reset_peak_memory_stats()
 
 
 # load the experiment schedule
-schedule_path = os.path.join(models_folder, 'transformers_only_training_runs.xlsx')
+
+#transformers_only_training_runs.xlsx
+#Swin_transformer_training_run.xlsx
+#DeiT_transformer_training_run.xlsx
+#CaiT_transformer_training_run.xlsx
+schedule_path = os.path.join(models_folder, 'Swin_transformer_training_run.xlsx')
 if os.path.exists(schedule_path):
     schedule_df = pd.read_excel(schedule_path)
     schedule_dict = schedule_df.to_dict('list')

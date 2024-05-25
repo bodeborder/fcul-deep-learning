@@ -32,7 +32,12 @@ warnings.filterwarnings("ignore")
 
 # define model evaluation details
 model_subfolder = None #'frame_level'
-model_names =  'all' #['0001_ViT_strong_0', '0002_ViT_strong_1','0003_ViT_strong_2','0004_ViT_strong_3','0005_ViT_strong_4'] #['0001_example_network_0'] 
+model_names = ['0006_Swin_0', '0007_Swin_1','0008_Swin_2','0009_Swin_3','0010_Swin_4'] 
+#'all' 
+#['0001_ViT_strong_0', '0002_ViT_strong_1','0003_ViT_strong_2','0004_ViT_strong_3','0005_ViT_strong_4'] 
+#['0006_Swin_0', '0007_Swin_1','0008_Swin_2','0009_Swin_3','0010_Swin_4'] 
+#['0011_DeiT_0', '0012_DeiT_1','0013_DeiT_2','0014_DeiT_3','0015_DeiT_4'] 
+#['0016_CaiT_0', '0017_CaiT_1','0018_CaiT_2','0019_CaiT_3','0020_CaiT_4']
 dataset_split = 'val'
 extension = ''
 
