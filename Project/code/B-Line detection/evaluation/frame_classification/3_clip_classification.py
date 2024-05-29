@@ -32,7 +32,7 @@ warnings.filterwarnings("ignore")
 
 # define model evaluation details
 model_subfolder = None #'frame_level'
-model_names = ['0006_Swin_0', '0007_Swin_1','0008_Swin_2','0009_Swin_3','0010_Swin_4'] 
+model_names = 'all'
 #'all' 
 #['0001_ViT_strong_0', '0002_ViT_strong_1','0003_ViT_strong_2','0004_ViT_strong_3','0005_ViT_strong_4'] 
 #['0006_Swin_0', '0007_Swin_1','0008_Swin_2','0009_Swin_3','0010_Swin_4'] 
@@ -55,7 +55,7 @@ store_visualizations = False
 store_curve = True
 
 # other parameters
-batch_size = 32
+batch_size = 8
 auc_step_size = 0.0005
 
 # --------------------------------------------------------------------------------------------------
@@ -159,7 +159,7 @@ for i, model_name in enumerate(model_names):
                 image_paths = [path for path in paths if path.split('_')[2] == clip]
 
                 # correct for the difference in image size expected by ViT using padding
-                padding = (0, 0, 64, 64) if settings['model'] == 'ViT' else (0, 0, 0, 0)
+                padding = (0, 0, 64, 64) if settings['model'] == 'ViT' or 'Swin' or 'DeiT' or 'CaiT' else (0, 0, 0, 0)
 
                 # create the dataset and dataloader object
                 dataset = ClipDataset(image_paths, directory, frames, overlap_fraction, apply_padding, settings['pretrained'], video_model, padding)

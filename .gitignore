@@ -5,6 +5,16 @@ Project/data/__MACOSX
 Project/code/intermediate/data/images/processed_frames
 Project/code/intermediate/data/images/datasets
 
+#large files that cannot be commmited
+Project/code/intermediate/models/0006_Swin_0/final_model.pth
+Project/code/intermediate/models/0006_Swin_0/model.pth
+Project/code/intermediate/models/0011_DeiT_0/final_model.pth
+Project/code/intermediate/models/0011_DeiT_0/model.pth
+Project/code/intermediate/models/0012_DeiT_1/final_model.pth
+Project/code/intermediate/models/0012_DeiT_1/model.pth
+Project/code/intermediate/models/0013_DeiT_2/final_model.pth
+Project/code/intermediate/models/0013_DeiT_2/model.pth
+
 Project/code/B-Line detection/utils/config.py
 
 # ignore raw data (data privacy)

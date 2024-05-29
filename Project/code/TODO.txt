@@ -101,3 +101,4 @@ finished
  - CaiT, CaiT_transformer_training_run.xlsx
 
  After each scheduled  run we run the 3_clip_classification to evaluate the model results
+ - Negative smust be half of the batch number
